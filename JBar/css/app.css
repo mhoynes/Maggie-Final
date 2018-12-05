@@ -1,0 +1,95 @@
+body {
+   
+    background-color:dimgray;
+}
+
+
+
+header {
+     background-size:contain;
+    min-height: 300px;
+   background-repeat: no-repeat;
+    background-position: top;   
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+
+.parallax { 
+    /* Set a specific height */
+    height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.photos {
+    
+    background-size:cover;
+    background-position:center;
+    background-repeat:;
+    min-height: 225px;
+    
+}
+
+h1,h2 {
+    font-family:"Marker Felt";
+    font-variant:small-caps;
+    line-height: 1.5;
+}
+
+.menu {
+   font-family:"Marker Felt";
+    font-variant:small-caps;
+    line-height: 1.5; 
+}
+
+#feedyourselfhealthy {
+     background-color:deepskyblue;
+    font-size: 100px;
+    
+}
+
+#juices {
+    background-color:deeppink;
+    font-size: 16px;
+}
+
+#smoothies {
+    background-color:mediumpurple;
+    font-size: 16px;
+}
+
+#powerbowls {
+    background-color:deepskyblue;
+    font-size: 16px;
+}
+
+#beautybowls {
+    background-color:deeppink;
+    font-size: 16px;
+}
+
+#sandwiches {
+    background-color:mediumpurple;
+    font-size: 16px;
+}
+
+#salads {
+    background-color:deepskyblue;
+    font-size: 16px;
+}
+
+#treatsandgrabandgos {
+    background-color:deeppink;
+    font-size: 16px;
+}
+
+section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
