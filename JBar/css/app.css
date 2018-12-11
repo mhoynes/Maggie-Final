@@ -1,6 +1,6 @@
 body {
    
-    background-color:dimgray;
+    background-color:dimgray; 
 }
 
 
@@ -36,10 +36,11 @@ header {
     
 }
 
-h1,h2 {
+h1 {
     font-family:"Marker Felt";
     font-variant:small-caps;
     line-height: 1.5;
+    text-align: center;
 }
 
 .menu {
@@ -48,48 +49,169 @@ h1,h2 {
     line-height: 1.5; 
 }
 
-#feedyourselfhealthy {
-     background-color:deepskyblue;
-    font-size: 100px;
-    
-}
 
 #juices {
     background-color:deeppink;
-    font-size: 16px;
+    font-size: 18px;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+#juicemenu {
+    column-count: 2;
+    font-size: 18px;
+    padding-left: 4em;
+    padding-right: 4em;
+    column-gap: 2em;
+}
 }
 
 #smoothies {
     background-color:mediumpurple;
-    font-size: 16px;
+    font-size: 18px;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+#smoothiemenu {
+    background-color:mediumpurple;
+     column-count: 2;
+    font-size: 18px;
+    padding-left: 4em;
+    padding-right: 4em;
+    column-gap: 2em;
 }
 
 #powerbowls {
     background-color:deepskyblue;
-    font-size: 16px;
+    font-size: 18px;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 
+#powerbowlsmenu {
+    background-color:deepskyblue;
+    font-size: 18px;
+    padding-left: 2em;
+    padding-right: 2em;
+    column-count: 2;
+    column-gap: 2em;
+}
 #beautybowls {
     background-color:deeppink;
-    font-size: 16px;
+    font-size: 18px;
+    padding-left: 4em;
+    padding-right: 4em;
+    
+}
+
+#beautybowlsmenu {
+    column-count: 2;
+    font-size: 18px;
+    padding-left: 2em;
+    padding-right: 2em;
+    column-gap: 2em;
 }
 
 #sandwiches {
     background-color:mediumpurple;
-    font-size: 16px;
+    font-size: 18px;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+#sandwichesmenu {
+      column-count: 2;
+    font-size: 18px;
+    padding-left: 2em;
+    padding-right: 2em;
+    column-gap: 2em;
 }
 
 #salads {
     background-color:deepskyblue;
-    font-size: 16px;
+    font-size: 18px;
+    padding-left: 4em;
+    padding-right: 4em;
+    text-align: center;
 }
 
 #treatsandgrabandgos {
     background-color:deeppink;
-    font-size: 16px;
+    font-size: 18px;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+#grabandgomenu {
+    column-count: 2;
+    font-size: 18px;
+    padding-left: 2em;
+    padding-right: 2em;
+    column-gap: 2em;
 }
 
 section {
     padding-top: 2em;
     padding-bottom: 2em;
+    font-family: "helvetica";
+    font-variant: small-caps;
+}
+
+#drinkprice {
+    font-family:"Marker Felt";
+    font-variant:small-caps;
+    line-height: 1.5;
+    padding-left: 4em;
+    padding-right: 4em;
+    text-align: center;
+}
+
+#about {
+    
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+#aboutsection {
+    column-count: 2;
+    font-size: 16px;
+    padding-left: 2em;
+    padding-right: 2em;
+    column-gap: 2em;
+    font-family: "helvetica";
+    font-variant: normal;
+    
+}
+#instagram {
+    height: 50px;
+    width: 50px;
+}
+
+#facebook {
+    height: 50px;
+    width: 50px;
+}
+
+#twitter {
+    height: 50px;
+    width: 50px;
+}
+
+#yelp {
+    height: 50px;
+    width: 50px;
+}
+
+#tripadvisor {
+    height: 50px;
+    width: 50px;
+}
+
+#contactus {
+    padding-left: 4em;
+    padding-right: 4em;
+    font-family: "helvetica";
+    font-variant: normal;
+    text-align: center
 }
